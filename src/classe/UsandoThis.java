@@ -30,7 +30,8 @@ public class UsandoThis {
 			 * que pertencem também a instancia. Isso tudo por que não são métodos
 			 * estáticos.
 			 */
-			return String.format("%d/%d/%d", dia, mes, ano);		
+			String formato ="%d/%d/%d"; //variável local
+			return String.format(formato, dia, mes, ano);		
 		}
 		
 		void imprimirDataFormatada() {
