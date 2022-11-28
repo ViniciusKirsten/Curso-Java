@@ -1,4 +1,4 @@
-package colecoes.lista;
+package colecoes.listaEHash;
 
 import java.util.Objects;
 
@@ -11,6 +11,11 @@ public class Usuario {
 		this.nome = nome;
 	}
 	
+	/*
+	 * usa esse método para toda vez que chamar o objeto criado 
+	 * a partir do usuario, somente o objeto, ele vai retornar 
+	 * a String que esta dentro do método "ToString"
+	*/
 	public String toString() {
 		return "meu nome é" + this.nome + ".";
 	}

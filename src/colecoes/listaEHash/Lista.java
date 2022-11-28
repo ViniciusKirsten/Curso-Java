@@ -1,4 +1,4 @@
-package colecoes.lista;
+package colecoes.listaEHash;
 
 import java.util.ArrayList;
 
@@ -23,7 +23,7 @@ public class Lista {
 		 * lista.add() --> somente usuario
 		 * 
 		 * nesse caso agora eu só vou poder adicionar elementos
-		 * do tipo Usuario, que são sa minha classe "Usuario"
+		 * do tipo Usuario, que são as minha classe "Usuario"
 		 */
 		for(Usuario usuarios: lista){
 			System.out.println(usuarios.nome);
@@ -31,7 +31,7 @@ public class Lista {
 			 * System.out.println(usuarios.toString);
 			 * 
 			 * Esse método vai chamar o meu "toString"
-			 * da clsse principal
+			 * da classe principal
 			 */
 		}
 		
@@ -39,6 +39,7 @@ public class Lista {
 		System.out.println(lista.get(3).nome);// acessar pelo indice
 		
 		//REMOVENDO OBJETOS DA LISTA
+		
 		lista.remove(1);//removendo pelo indice
 		lista.remove(new Usuario("Manu")); //removendo pelo objeto
 		/*
