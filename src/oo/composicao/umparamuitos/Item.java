@@ -5,7 +5,8 @@ public class Item {
 	String nome;
 	int quantidade;
 	double preco;
-	Compra compra;
+	
+	Compra compra;//realação bidirecional
 	
 	//criando um construtor
 	Item(String nome, int quantidade, double preco){

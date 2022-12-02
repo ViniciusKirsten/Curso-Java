@@ -1,7 +1,8 @@
 package oo.composicao.umparaum;
 
 public class CarroTeste {
-
+	//Usando para execurar a relação entre "Carro" e "Motor"
+	
 	public static void main(String[] args) {
 		
 		Carro c1 = new Carro();
@@ -31,5 +32,7 @@ public class CarroTeste {
 		System.out.println(c1.motor.carro.motor.carro.motor.carro.motor.giros());
 		//não preciso fazer tudo isso, somente mostrando que é possivel por ser uma
 		//relação bidirecional 
+		
+		// via de regra você só usa relações bidirecionais quenado são necessárias
 	}
 }
