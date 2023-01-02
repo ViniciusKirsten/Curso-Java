@@ -8,12 +8,16 @@ public class Heroi extends Jogador{
 	 * mecanismo de herança
 	 */
 	
+	public Heroi(int x, int y){// craindo um construtor para a classe pai 
+		super(x, y); //pois a classe pai não tem o contrutor padrão
+	}
+	
 	// sobrescrever um comportamento ou um método na classe filha
 	/*
 	 * nesse caso o herói vai ter uma vantagem sobre os outros oponentes
 	 * pois ele ataca com 20.
 	 */
-	boolean atacar(Jogador oponente){
+	public boolean atacar(Jogador oponente){
 		int deltaX =  Math.abs(x - oponente.x);
 		int deltaY = Math.abs( y - oponente.y);
 		

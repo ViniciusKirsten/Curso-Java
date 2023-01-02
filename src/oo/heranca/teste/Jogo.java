@@ -1,4 +1,7 @@
-package oo.heranca;
+package oo.heranca.teste;
+
+import oo.heranca.Heroi;
+import oo.heranca.Monstro;
 
 public class Jogo {
 
@@ -8,7 +11,7 @@ public class Jogo {
 		monstro.x = 10;
 		monstro.y = 10;
 		
-		Heroi heroi = new Heroi();
+		Heroi heroi = new Heroi(10 , 10);//pasando os valores alternativo para o contrutor
 		heroi.x = 10;
 		heroi.y = 11;
 		
