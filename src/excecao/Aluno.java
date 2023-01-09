@@ -4,8 +4,8 @@ import java.util.Objects;
 
 public class Aluno {
 
-	final String nome;
-	final Double nota;
+	public final String nome;
+	public final Double nota;
 	
 	public Aluno(String nome, Double nota) {
 		super();
