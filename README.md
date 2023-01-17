@@ -32,16 +32,16 @@ Neste curso você aprenderá Java do absoluto zero até se tornar um programador
 - [x] Tratamento de Erros.
 - [x] Projeto - Campo Minado (+JUnit 5).
 - [x] Generics.
-- [] Java Desktop com Swing.
-- [] Banco de Dados Relacional.
-- [] Banco de Dados com JDBC.
-- [] Java Persistence API (JPA).
-- [] Modularidade en Java.
-- [] JavaFX.
-- [] Conceito sobre Web.
-- [] Spring Boot.
-- [] Banco de Dados Não Relacional (NoSQL).
-- [] Conclusão.
+- [ ] Java Desktop com Swing.
+- [ ] Banco de Dados Relacional.
+- [ ] Banco de Dados com JDBC.
+- [ ] Java Persistence API (JPA).
+- [ ] Modularidade en Java.
+- [ ] JavaFX.
+- [ ] Conceito sobre Web.
+- [ ] Spring Boot.
+- [ ] Banco de Dados Não Relacional (NoSQL).
+- [ ] Conclusão.
 
 ## Link do Curso.
 [Java 2022 COMPLETO: Do Zero ao Profissional + Projetos!](https://www.udemy.com/course/fundamentos-de-programacao-com-java/)
