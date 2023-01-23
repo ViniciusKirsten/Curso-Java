@@ -32,7 +32,7 @@ Neste curso você aprenderá Java do absoluto zero até se tornar um programador
 - [x] Tratamento de Erros.
 - [x] Projeto - Campo Minado (+JUnit 5).
 - [x] Generics.
-- [ ] Java Desktop com Swing.
+- [x] Java Desktop com Swing.
 - [ ] Banco de Dados Relacional.
 - [ ] Banco de Dados com JDBC.
 - [ ] Java Persistence API (JPA).
