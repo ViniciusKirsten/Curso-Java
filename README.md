@@ -33,7 +33,7 @@ Neste curso você aprenderá Java do absoluto zero até se tornar um programador
 - [x] Projeto - Campo Minado (+JUnit 5).
 - [x] Generics.
 - [x] Java Desktop com Swing.
-- [ ] Banco de Dados Relacional.
+- [x] Banco de Dados Relacional.
 - [ ] Banco de Dados com JDBC.
 - [ ] Java Persistence API (JPA).
 - [ ] Modularidade en Java.
