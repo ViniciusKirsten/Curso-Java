@@ -34,7 +34,7 @@ Neste curso você aprenderá Java do absoluto zero até se tornar um programador
 - [x] Generics.
 - [x] Java Desktop com Swing.
 - [x] Banco de Dados Relacional.
-- [ ] Banco de Dados com JDBC.
+- [x] Banco de Dados com JDBC.
 - [ ] Java Persistence API (JPA).
 - [ ] Modularidade en Java.
 - [ ] JavaFX.
