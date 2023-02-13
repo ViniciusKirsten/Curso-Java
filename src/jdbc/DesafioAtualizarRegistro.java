@@ -15,17 +15,33 @@ public class DesafioAtualizarRegistro {
 		Scanner entrada = new Scanner(System.in);
 		Connection conexao = FabricaConexao.getConexao();
 
-		System.out.println("Informer o código da pessoa: ");
-		int codigo = entrada.nextInt();
+		System.out.print("Informer o código da pessoa: ");
+		int codigo = Integer.parseInt(entrada.nextLine());
 		 
-		String sql = "SELECT CODIGO, NOME FROM PESSOAS WHERE CODIGO = ?";
-		PreparedStatement stmt = conexao.prepareStatement(sql);
+		String select = "SELECT CODIGO, NOME FROM PESSOAS WHERE CODIGO = ?";
+		String update = "UPDATE PESSOAS SET NOME = ? WHERE CODIGO = ?";
+		
+		PreparedStatement stmt = conexao.prepareStatement(select);
 		stmt.setInt(1, codigo);
 		
 		ResultSet resultado = stmt.executeQuery();
 		
 		if(resultado.next()) {
 			Pessoa p = new Pessoa(resultado.getInt(1), resultado.getString(2));
+			System.out.println("O nome atual é "+ p.getNome());
+			
+			System.out.println("Informe o novo nome: ");
+			String novoNome = entrada.nextLine();
+			
+			stmt.close();
+			stmt = conexao.prepareStatement(update);
+			stmt.setString(1, novoNome);
+			stmt.setInt(2, codigo);
+			stmt.execute();
+			
+			System.out.println("Pessoa alterada com sucesso!");
+		}else {
+			System.out.println("Pessoa não encontrada");
 		}
 		
 		entrada.close();
