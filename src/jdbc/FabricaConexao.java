@@ -3,6 +3,7 @@ package jdbc;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.Properties;
 
 public class FabricaConexao {
 
@@ -17,5 +18,8 @@ public class FabricaConexao {
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
 		}
+	}
+	private static Properties getProperties() {
+		Properties prop = new Properties(); 
 	}
 }

@@ -22,7 +22,7 @@ public class ExcluirPessoas {
 			System.out.println("Pessoa excluida com suceso!");
 		} else {
 			System.out.println("Nada feito!");
-		}
+		} 
 		
 		entrada.close();
 		conexao.close();
